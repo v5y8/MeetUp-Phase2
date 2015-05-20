@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2">
+
+    <item
+        jar="D:\Downloads\Dropbox\Android\MeetUp-Phase2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false" revision="21.1.2" sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex
+            dex="D:\Downloads\Dropbox\Android\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-26f5fb6ee477483dd624143bfaf6566d2ebe8959.jar" />
+    </item>
+    <item
+        jar="C:\Users\James Liu\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.6.1\6f3b8a24bf970f17289b234284c94f43eb42f0e4\slf4j-api-1.6.1.jar"
+        jumboMode="false" revision="21.1.2" sha1="6f3b8a24bf970f17289b234284c94f43eb42f0e4">
+        <dex
+            dex="D:\Downloads\Dropbox\Android\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\slf4j-api-1.6.1-1c5384d2f95357fc90a334459c16d17b1a36c226.jar" />
+    </item>
+    <item
+        jar="D:\Downloads\Dropbox\Android\MeetUp-Phase2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false" revision="21.1.2" sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex
+            dex="D:\Downloads\Dropbox\Android\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\classes-dee9705efcbe9e9a455efe5d790d6e08578f6c99.jar" />
+    </item>
+    <item
+        jar="D:\Downloads\Dropbox\Android\MeetUp-Phase2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false" revision="21.1.2" sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex
+            dex="D:\Downloads\Dropbox\Android\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\classes-fa6e9820e08d97ac7e1a8bf7a10e55eb2a567940.jar" />
+    </item>
+    <item
+        jar="C:\Users\James Liu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false" revision="21.1.2" sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex
+            dex="D:\Downloads\Dropbox\Android\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-435f6d4ddb1c21c06c432e1ba27bbbca7d3d4ec5.jar" />
+    </item>
+    <item
+        jar="C:\Users\James Liu\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-simple\1.6.1\58e59bfb3e247097b8122243b3bfe0049c8cfae8\slf4j-simple-1.6.1.jar"
+        jumboMode="false" revision="21.1.2" sha1="58e59bfb3e247097b8122243b3bfe0049c8cfae8">
+        <dex
+            dex="D:\Downloads\Dropbox\Android\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\slf4j-simple-1.6.1-75a33de45f0f9ba197b174147baf963bd788bc36.jar" />
+    </item>
+    <item
+        jar="C:\Users\James Liu\.gradle\caches\modules-2\files-2.1\org.osmdroid\osmdroid-android\4.2\f3a0c73a9ed04a5d0959789c53da9f08462bfcc2\osmdroid-android-4.2.jar"
+        jumboMode="false" revision="21.1.2" sha1="f3a0c73a9ed04a5d0959789c53da9f08462bfcc2">
+        <dex
+            dex="D:\Downloads\Dropbox\Android\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\osmdroid-android-4.2-381a4ebee39de4f3e8843df4ccad2bc642fdf4a6.jar" />
+    </item>
+
+</items>

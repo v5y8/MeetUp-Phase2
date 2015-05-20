@@ -1,0 +1,95 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf160
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0  CourseFactory courseFactory = CourseFactory.getInstance();\
+\
+        Building dmpBuilding = new Building("DMP", new LatLon(49.261474, -123.248060));\
+\
+        Course cpsc210 = courseFactory.getCourse("CPSC", 210);\
+        Section aSection = new Section("202", "MWF", "12:00", "12:50", dmpBuilding);\
+        cpsc210.addSection(aSection);\
+        aSection.setCourse(cpsc210);\
+        aSection = new Section("201", "MWF", "16:00", "16:50", dmpBuilding);\
+        cpsc210.addSection(aSection);\
+        aSection.setCourse(cpsc210);\
+        aSection = new Section("BCS", "MWF", "12:00", "12:50", dmpBuilding);\
+        cpsc210.addSection(aSection);\
+        aSection.setCourse(cpsc210);\
+\
+        Course engl222 = courseFactory.getCourse("ENGL", 222);\
+        aSection = new Section("007", "MWF", "14:00", "14:50", new Building("Buchanan", new LatLon(49.269258, -123.254784)));\
+        engl222.addSection(aSection);\
+        aSection.setCourse(engl222);\
+\
+        Course scie220 = courseFactory.getCourse("SCIE", 220);\
+        aSection = new Section("200", "MWF", "15:00", "15:50", new Building("Swing", new LatLon(49.262786, -123.255044)));\
+        scie220.addSection(aSection);\
+        aSection.setCourse(scie220);\
+\
+        Course math200 = courseFactory.getCourse("MATH", 200);\
+        aSection = new Section("201", "MWF", "09:00", "09:50", new Building("Buchanan", new LatLon(49.269258, -123.254784)));\
+        math200.addSection(aSection);\
+        aSection.setCourse(math200);\
+\
+        Course fren102 = courseFactory.getCourse("FREN", 102);\
+        aSection = new Section("202", "MWF", "11:00", "11:50", new Building("Barber", new LatLon(49.267442, -123.252471)));\
+        fren102.addSection(aSection);\
+        aSection.setCourse(fren102);\
+\
+        Course japn103 = courseFactory.getCourse("JAPN", 103);\
+        aSection = new Section("002", "MWF", "10:00", "11:50", new Building("Buchanan", new LatLon(49.269258, -123.254784)));\
+        japn103.addSection(aSection);\
+        aSection.setCourse(japn103);\
+\
+        Course scie113 = courseFactory.getCourse("SCIE", 113);\
+        aSection = new Section("213", "MWF", "13:00", "13:50", new Building("Swing", new LatLon(49.262786, -123.255044)));\
+        scie113.addSection(aSection);\
+        aSection.setCourse(scie113);\
+\
+        Course micb308 = courseFactory.getCourse("MICB", 308);\
+        aSection = new Section("201", "MWF", "12:00", "12:50", new Building("Woodward", new LatLon(49.264704, -123.247536)));\
+        micb308.addSection(aSection);\
+        aSection.setCourse(micb308);\
+\
+        Course math221 = courseFactory.getCourse("MATH", 221);\
+        aSection = new Section("202", "TR", "11:00", "12:20", new Building("Klinck", new LatLon(49.266112, -123.254776)));\
+        math221.addSection(aSection);\
+        aSection.setCourse(math221);\
+\
+        Course phys203 = courseFactory.getCourse("PHYS", 203);\
+        aSection = new Section("201", "TR", "09:30", "10:50", new Building("Hennings", new LatLon(49.266400, -123.252047)));\
+        phys203.addSection(aSection);\
+        aSection.setCourse(phys203);\
+\
+        Course crwr209 = courseFactory.getCourse("CRWR", 209);\
+        aSection = new Section("002", "TR", "12:30", "13:50", new Building("Geography", new LatLon(49.266039, -123.256129)));\
+        crwr209.addSection(aSection);\
+        aSection.setCourse(crwr209);\
+\
+        Course fnh330 = courseFactory.getCourse("FNH", 330);\
+        aSection = new Section("002", "TR", "15:00", "16:20", new Building("MacMillian", new LatLon(49.261167, -123.251157)));\
+        fnh330.addSection(aSection);\
+        aSection.setCourse(fnh330);\
+\
+        Course cpsc499 = courseFactory.getCourse("CPSC", 430);\
+        aSection = new Section("201", "TR", "16:20", "17:50", new Building("Liu", new LatLon(49.267632, -123.259334)));\
+        cpsc499.addSection(aSection);\
+        aSection.setCourse(cpsc499);\
+\
+        Course chem250 = courseFactory.getCourse("CHEM", 250);\
+        aSection = new Section("203", "TR", "10:00", "11:20", new Building("Klinck", new LatLon(49.266112, -123.254776)));\
+        chem250.addSection(aSection);\
+        aSection.setCourse(chem250);\
+\
+        Course eosc222 = courseFactory.getCourse("EOSC", 222);\
+        aSection = new Section("200", "TR", "11:00", "12:20", new Building("ESB", new LatLon(49.262866, -123.25323)));\
+        eosc222.addSection(aSection);\
+        aSection.setCourse(eosc222);\
+\
+        Course biol201 = courseFactory.getCourse("BIOL", 201);\
+        aSection = new Section("201", "TR", "14:00", "15:20", new Building("BioSci", new LatLon(49.263920, -123.251552)));\
+        biol201.addSection(aSection);\
+        aSection.setCourse(biol201);}
