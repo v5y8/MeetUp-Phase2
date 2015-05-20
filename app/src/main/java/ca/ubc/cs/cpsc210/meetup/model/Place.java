@@ -24,6 +24,7 @@ public class Place extends Location {
      */
     public Place(String placeName) {
     	//LatLon l = new LatLon();
+    	System.out.println("Something");
         this(placeName, new LatLon());
         
     }
