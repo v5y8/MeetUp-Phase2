@@ -23,7 +23,9 @@ public class Place extends Location {
      * @param placeName tThe name of the place
      */
     public Place(String placeName) {
-        this(placeName, new LatLon());
+    	LatLon l = new LatLon();
+        this(placeName, l);
+        
     }
 
     /**
